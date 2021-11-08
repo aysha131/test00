@@ -1,0 +1,6 @@
+sonar-scanner \
+  -Dsonar.organization=aysha131 \
+  -Dsonar.projectKey=aysha131_test00 \
+  -Dsonar.sources=. \
+  -Dsonar.cfamily.build-wrapper-output=bw-output \
+  -Dsonar.host.url=https://sonarcloud.io
